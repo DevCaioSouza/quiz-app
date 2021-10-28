@@ -93,6 +93,24 @@ const questions = [
         ]
     },
     {
+        question: 'Qual desses operadores matemáticos adiciona valor na variável?',
+        answers: [
+            { text: 'x += 5', correct: true},
+            { text: 'x + 5', correct: false},
+            { text: 'x =+ 5', correct: false},
+            { text: 'x ++ 5', correct: false}
+        ]
+    },
+    {
+        question: 'Como são declaradas variáveis com arrays no JavaScript?',
+        answers: [
+            { text: 'const myArray = {1, 2, 3}', correct: false},
+            { text: 'const myArray = (1, 2, 3)', correct: false},
+            { text: 'const myArray = <1, 2, 3>', correct: false},
+            { text: 'const myArray = [1, 2, 3]', correct: true}
+        ]
+    },
+    {
         question: 'É possível comentar código no JavaScript usando /* */?',
         answers: [
             { text: 'Não', correct: false},
