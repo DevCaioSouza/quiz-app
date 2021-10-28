@@ -82,33 +82,34 @@ function clearStatusClass(element){
 }
 
 const questions = [
+    
     {
-        question: 'Quanto é 2 + 2',
+        question: 'O termo CSS significa:',
         answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false},
-            { text: '2', correct: false},
-            { text: '120', correct: false},
+            { text: 'Card Style Space', correct: false},
+            { text: 'Change Style Source', correct: false},
+            { text: 'Cascading Style Sheet', correct: true},
+            { text: 'Command Space Style', correct: false}
         ]
     },
     {
-        question: 'A capital do Brasil é:',
+        question: 'É possível comentar código no JavaScript usando /* */?',
         answers: [
-            { text: 'São Paulo', correct: false},
-            { text: 'Brasília', correct: true},
-            { text: 'Macapá', correct: false},
-            { text: 'Sergipe', correct: false},
+            { text: 'Não', correct: false},
+            { text: 'Sim', correct: true},
         ]
     },
     {
-        question: 'Qual é o maior rio brasileiro?',
+        question: 'Quais são as palavras usadas para se declarar variáveis no JavaScript?',
         answers: [
-            { text: 'Rio São Francisco', correct: false},
-            { text: 'Rio Tietê', correct: false},
-            { text: 'Rio Amazonas', correct: true},
-            { text: 'Rio Biricutíco', correct: false}
+            { text: 'variable, let e const', correct: false},
+            { text: 'div, span e global', correct: false},
+            { text: 'var, let e const', correct: true},
+            { text: 'declareVar, attach e loop', correct: false}
         ]
     },
+ 
+   
     {
         question: 'Como uma função é chamada no JavaScript?',
         answers: [
@@ -119,3 +120,4 @@ const questions = [
         ]
     },
 ]
+
